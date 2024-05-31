@@ -25,8 +25,8 @@ async def set_commands(bot: Bot):
 async def start(message: types.Message):
     user = get_user(message.from_user.id)
     if user is None:
-        add_user(message.from_user.id, message.from_user.username.message.from_user.first_name, message.from_user.last_name)
-        await message.answer('Привет, я тест бот для первого задания', reply_markup= get_keyboard_1())
+        add_user(message.from_user.id, message.from_user.username, message.from_user.first_name, message.from_user.last_name)
+        await message.answer('Привет, я тест бот для первого задания', reply_markup=get_keyboard_1())
     else:
         await message.answer('Привет, я тест бот для первого задания', reply_markup=get_keyboard_1())
 
