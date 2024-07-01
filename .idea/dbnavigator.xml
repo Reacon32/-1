@@ -29,7 +29,6 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
       <object connection-id="3d127baf-b785-4213-8bc7-e3f7e3b34c86" object-ref="schemas/main/tables/users" />
-      <object connection-id="411ffacf-7332-4bae-ad48-55e6599649cd" object-ref="schemas/main/tables/users" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
